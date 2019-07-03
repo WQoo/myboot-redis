@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "redisson",
+      "type": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "redisson.address",
+      "type": "java.lang.String",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties"
+    },
+    {
+      "name": "redisson.connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "redisson.connection-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties",
+      "defaultValue": 64
+    },
+    {
+      "name": "redisson.master-connection-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties",
+      "defaultValue": 250
+    },
+    {
+      "name": "redisson.master-name",
+      "type": "java.lang.String",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties"
+    },
+    {
+      "name": "redisson.password",
+      "type": "java.lang.String",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties"
+    },
+    {
+      "name": "redisson.sentinel-addresses",
+      "type": "java.lang.String[]",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties"
+    },
+    {
+      "name": "redisson.slave-connection-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties",
+      "defaultValue": 250
+    },
+    {
+      "name": "redisson.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ranger.mybootredislua.redisConfiguration.RedissonProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
